@@ -1,5 +1,5 @@
 <template>
-   <el-input ref="testInput" v-model="formatNum" :placeholder="placeholder" :disabled="disabled"></el-input>
+   <input v-model="formatNum" :placeholder="placeholder" :disabled="disabled"/>
 </template>
 
 <script>
